@@ -11,10 +11,10 @@ library(tweet2r)
 library(ROAuth)
 library(rtweet)
 Sys.setlocale(category = "LC_ALL",locale = "chinese (simplified)")
-my_key<-"LPoq0HF12BKWR5G2jDcQnJei3"
-my_secret<-"rZPf1ui3wnqDJUXkoIyHOKqm1fFRFPsrCMgXVUdnv3zuWHqpLQ"
-my_access_token<-"873157482318880770-6Uq4ZJPxVLPz2Uaq7ADBYMtd4fAOHzy"
-my_access_secret<-"15uJWpUO3yFfnDOvsZzfOyRerdrNfjGWGQZkQzbOhoJc3"
+my_key<-""
+my_secret<-""
+my_access_token<-""
+my_access_secret<-""
 setup_twitter_oauth(my_key,my_secret,my_access_token,my_access_secret)
 setwd("d:/")
 files<-dir('d:/mexico')
