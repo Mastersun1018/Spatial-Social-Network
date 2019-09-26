@@ -31,7 +31,7 @@ Sys.setlocale("LC_TIME", "C")
 
 
 
-#####################new version
+#####################new version 
 #time fragment
 #begin<-as.numeric(unclass(as.POSIXct("2017-11-06"))+10*3600)
 #extract useful data from data
